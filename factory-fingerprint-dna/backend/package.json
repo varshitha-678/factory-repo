@@ -1,0 +1,14 @@
+{
+  "name": "factory-fingerprint-dna-backend",
+  "version": "1.0.0",
+  "description": "Example backend (next phase) for receiving ESP32 sensor readings for the Factory Fingerprint DNA project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vectorize-io/hindsight-client": "^0.10.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment secrets
+.env
+**/.env
+
+# Extra copy
+fixed/
+
+# Accidental root Node files
+/package.json
+/package-lock.json
